@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#2b6cb0" />
+  <title>Brain Tumor Detector</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <main class="card">
+    <h1>Brain Tumor Detector (Demo)</h1>
+    <p class="muted">Upload an MRI slice (PNG/JPG)</p>
+    <input id="file-input" type="file" accept="image/*"/>
+    <div id="preview-wrap"><img id="preview" /></div>
+    <button id="submit">Analyze</button>
+    <section id="results" class="results"></section>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
